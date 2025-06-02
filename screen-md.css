@@ -1,0 +1,58 @@
+
+@media(min-width:481px) and (max-width:1200px){
+
+    #main-box{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #pricing-box{
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #basic-box{
+        background-color: white;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 4rem;
+        padding-top: 5rem;
+        border-radius: 4px;
+    }
+    
+    #standard-box{
+        background-color: white;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 6rem;
+        padding-top: 4rem;
+    }
+
+    #premium-box{
+        background-color: white;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 6rem;
+        padding-top: 4rem;
+    }
+
+    .title{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .list{
+        font-size: 14px;
+    }
+}

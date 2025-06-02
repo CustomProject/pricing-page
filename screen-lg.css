@@ -1,0 +1,116 @@
+.premium{
+    color: #eabe2f;
+}
+
+.standard{
+    color: #4682B4;
+}
+
+.basic{
+    color: #ead8d8;
+}
+
+@media(min-width:1201px) {
+
+    #pricing-box{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    
+    #main-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #basic-box{
+        background-color: white;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-bottom: 4rem;
+        padding-top: 5rem;
+        transition: transform 0.3s ease;
+    }
+
+    #basic-box:hover{
+        transition: transform 0.3s ease;
+        box-shadow: 0 0 100px #ead8d8;
+        border: 5px solid #ead8d8;
+        border-radius: 12px;
+        transform: scale(1.1);
+    }
+
+    #standard-box{
+        background-color: white;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 6rem;
+        padding-top: 4rem;
+        transition: transform 0.3s ease;
+    }
+
+    #standard-box:hover{
+        box-shadow: 0 0 100px #4682B4;
+        border: 5px solid #4682B4;
+        border-radius: 12px;
+        transform: scale(1.1);
+    }
+
+    #premium-box{
+        background-color: white;
+        padding-left: 1rem;
+        padding-right: 2rem;
+        padding-bottom: 6rem;
+        padding-top: 5rem;
+        transition: transform 0.3s ease;
+    }
+
+    #premium-box:hover{
+        box-shadow: 0 0 100px #eabe2f;
+        border: 5px solid #eabe2f;
+        border-radius: 12px;
+        transform: scale(1.1);
+    }
+
+    .title{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .basic{
+        margin-bottom: 20px;
+    }
+    
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .price{
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 0.8rem;
+        font-size: large;
+    }
+
+    .main-container{
+        margin-bottom: 70px;
+    }
+
+    .buy-standard, .standard-info, .buy-premium, .premium-info{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .list{
+        font-size: 100%;
+    }
+
+    .premium, .standard, .basic{
+        margin-bottom: 2rem;
+    }
+
+}
